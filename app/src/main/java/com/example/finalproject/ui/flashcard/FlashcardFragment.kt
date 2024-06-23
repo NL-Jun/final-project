@@ -70,7 +70,7 @@ class FlashcardFragment : Fragment() {
                     flashcard?.let { newFlashcards.add(it) }
                 }
                 adapter.updateFlashcards(newFlashcards)
-            }
+            }//Hello
 
             override fun onCancelled(error: DatabaseError) {
             }
