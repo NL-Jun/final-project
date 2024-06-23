@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_margin="18dp"
+    android:background="@color/purple_200">
+
+    <!-- Category Title TextView -->
+<TextView
+android:id="@+id/tvCategoryTitle"
+android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="@android:color/black"
+    android:background="?attr/selectableItemBackground"
+    android:ellipsize="end"
+    android:maxLines="1"
+    />
+    </LinearLayout>
